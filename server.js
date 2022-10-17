@@ -5,7 +5,7 @@ const app = express();
 app.set('PORT', 3000 || process.env.PORT);
 
 app.get('/', (req, res) => {
-    res.send("Hello world with express.")
+    res.send("<h1>Hola desde express, con AWS - EC2</h1>")
 });
 
 app.listen(app.get('PORT'), (req, res) => {
